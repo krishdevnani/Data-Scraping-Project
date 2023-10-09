@@ -1,2 +1,8 @@
 # Data-Scraping-Project
-this explains
+
+
+
+
+
+
+Step 3: Analysis: Summary and visualizations
