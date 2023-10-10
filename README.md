@@ -12,8 +12,7 @@ This was the link that was utilized for instructions: https://pypi.org/project/W
 
 
 The license of your data and any source data:
-
-
+The MIT License is utilized for this project. This is the source website: https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table
 
 
 A data type and description for each attribute in your data:
