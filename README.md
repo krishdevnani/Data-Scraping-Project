@@ -16,36 +16,15 @@ The MIT License is utilized for this project. This is the source website: https:
 
 
 **A data type and description for each attribute in your data:**
-After creating smaller dataframes like summerdata and winterdata from the raw data table, there are two types of data identified: strings and integers.
-The columns of countries under the header 'Country' are stored as strings.
-The number of gold medals under the headers 'Summer Olympics Gold' and 'Winter Olympics Gold' are stored as integers.
+In the main data frame called "userdata", the list of countries are presented as strings and the number of medals are presented as integers.
+Smaller data frames called "summerdata" and "winterdata" are created from "userdata". The smaller data frames have the same types of data. The columns of countries under the header 'Country' are stored as strings. The number of gold medals under the headers 'Summer Olympics Gold' and 'Winter Olympics Gold' are stored as integers.
 
 
 **Any known issues or potential issues, such as sources of bias in collection:**
-The first issue identified was that the raw data table consisted of codes for the countries in addition to the name of the country itself. Therefore, a function defined as "name_fixer" was created in order to splice the codes that were present in brackets. 
-The second issue was the inclusion of the total row in the tables for summerdata and winterdata. As a result, it was necessary to splice the respective rows as they were interfering with the results displayed in the bar graphs.
-A bias that was identified was with respect to the countries achieving gold medals in the winter olympics. I noticed that countries in the northern hemisphere were more likely to win the winter olympics, possibly due to the ideal weather conditions to popularize the sport. This case was observed with countries like Norway, Canada, and Germany. 
+The first issue identified was that the raw data table consisted of codes for the countries in addition to the name of the country itself. This prevented the bar graph from looking concise and visually appealing. To resolve this problem, a function defined as "name_fixer" was created. Since the code of the country was placed in a parentheses and was located after the name of the country, the replace function was utlized to search it and delete the remainder of the string. This allowed the program to splice the country's code and only return the name of the country. 
 
+The second issue was the inclusion of the total row in the tables for summerdata and winterdata. The total row interfered with the bar graph because its number appeared to be significantly large than the number of medals attained by the rest of the countries. Since the total medals row was located in the last row for the summer olympics and winter olympics, I was able to solve this problem by removing the last row. I ensured that I completed this before displaying my bar graph.  
 
------
+A bias that I identified during my data collection process was that I assumed that all countries had an equal opportunity to win a gold medal in the olympics. However, after displaying the graph for the winter olympics, I realized that it only comprised of countries located in the northern hemisphere. This may be due to ideal weather conditions to popularize the winter sports. This case was observed with countries like Norway, Canada, and Germany. 
 
-##note about how winter countries are are more likely to win 
-it's not a bias
-
-------
-
-#bias of countries being the same likelihood of winning
-#assuming wikipedia is 100% accurate
-
-
-
-#read me should be very detailed
-
-
-
-
-
-
-
-
-
+A potential limitation was that I was dependent on Wikipedia for obtaining data regarding the number of olympic medals acquired from countries around the world. To increase reliability, it would be better to refer to the Olympics source itself. This can potentially help make the results displayed more accurate. 
