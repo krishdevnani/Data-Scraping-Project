@@ -27,11 +27,19 @@ The second issue was the inclusion of the total row in the tables for summerdata
 A bias that was identified was with respect to the countries achieving gold medals in the winter olympics. I noticed that countries in the northern hemisphere were more likely to win the winter olympics, possibly due to the ideal weather conditions to popularize the sport. This case was observed with countries like Norway, Canada, and Germany. 
 
 
+-----
+
+##note about how winter countries are are more likely to win 
+it's not a bias
+
+------
+
+#bias of countries being the same likelihood of winning
+#assuming wikipedia is 100% accurate
 
 
 
-
-
+#read me should be very detailed
 
 
 
